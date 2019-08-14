@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Magevol_QuickShopping",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "This extension allows the user to easily add a product to the cart by SKU",
+    "authors": [
+    {
+        "name": "MagEvol",
+        "email": "contact@magevol.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

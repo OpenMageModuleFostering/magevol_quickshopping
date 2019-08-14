@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Magevol_QuickShopping</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension allows the user to easily add a product to the cart by SKU</summary>
+    <description>This extension allows the user to easily add a product to the cart by SKU&#xD;
+A block is added to the shopping cart page to enter the SKU and quantity of product to cart.</description>
+    <notes>First release</notes>
+    <authors><author><name>MagEvol</name><user>MagEvol</user><email>contact@magevol.com</email></author></authors>
+    <date>2015-04-24</date>
+    <time>15:17:55</time>
+    <contents><target name="magecommunity"><dir name="Magevol"><dir name="QuickShopping"><dir name="controllers"><file name="CartController.php" hash="b84e90ce48c3859d00a5dfe73c821576"/></dir><dir name="etc"><file name="config.xml" hash="185beb0b9569fd2eef2471244311b48e"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Magevol_QuickShopping.xml" hash="3cf34ac723bce6576c2dc5e8250b4ba3"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="quickshopping.xml" hash="120c6433b7c35ca634591d00f26a703d"/></dir><dir name="template"><dir name="checkout"><dir name="cart"><file name="quickshopping.phtml" hash="8befa27989e2239536d985e41ad1922a"/></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

@@ -1,0 +1,30 @@
+<?php
+/**
+ * @category    design
+ * @package     base_default
+ * @author		Magevol
+ */
+?>
+<form action="<?php echo $this->getUrl('quickshopping/cart/add') ?>" class="add-to-cart" method="post" id="ref_addtocart_form">
+	<div class="fieldset">
+		<ul class="form-list">
+       		<li class="fields">
+				<div class="field">
+				 	<label><?php echo $this->__('Sku :') ?></label>
+				 	<div class="input-box">
+				    	<input type="text" name="sku" id="sku" value="" placeholder="<?php echo $this->__('Enter SKU product') ?>" title="<?php echo $this->__('SKU ') ?>" class="input-text sku" />
+				    </div>
+			    </div>
+			    <div class="field">
+				    <label for="qty"><?php echo $this->__('Qty:') ?></label>
+				    <div class="input-box">
+				    	<input type="text" name="qty" id="qty" maxlength="12" value="1" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
+					</div>	
+				</div>
+			</li>
+			<li>
+				<button class="button btn-add-cart" title="<?php echo $this->__('Add to cart') ?>" type="submit"><span><span><?php echo $this->__('Add to cart') ?></span></span></button>
+			</li>
+		</ul>
+	</div>
+</form>

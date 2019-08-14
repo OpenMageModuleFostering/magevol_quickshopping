@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Magevol
+ * @package     Magevol_QuickShopping
+ * @author		Magevol
+ */
+-->
+<config>
+    <modules>
+        <Magevol_QuickShopping>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Magevol_QuickShopping>
+    </modules>
+</config>

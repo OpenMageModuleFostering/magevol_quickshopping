@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Magevol
+ * @package     Magevol_QuickShopping
+ * @author		Magevol
+ */
+-->
+<config>
+    <modules>
+        <Magevol_QuickShopping>
+            <version>0.1.0</version>
+        </Magevol_QuickShopping>
+    </modules>
+    <frontend>
+        <routers>
+            <quickshopping>
+                <use>standard</use>
+                <args>
+                    <module>Magevol_QuickShopping</module>
+                    <frontName>quickshopping</frontName>
+                </args>
+            </quickshopping>
+        </routers>
+        <layout>
+            <updates>
+                <quickshopping>
+                    <file>quickshopping.xml</file>
+                </quickshopping>
+            </updates>
+        </layout>
+    </frontend>
+</config>

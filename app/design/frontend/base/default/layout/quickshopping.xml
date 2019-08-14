@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    design
+ * @package     base_default
+ * @author		Magevol
+ */
+
+-->
+<layout version="0.1.0">
+    <checkout_cart_index>
+		<reference name="content">
+	        <block type="checkout/cart" name="quickshopping" before="-" >
+	              <action method="setTemplate"><template>quickshopping</template></action> 
+	              <block type="checkout/cart" name="quickshopping" as="quickshopping" template="checkout/cart/quickshopping.phtml" />
+	        </block>
+	  	</reference>
+  </checkout_cart_index>
+</layout>
