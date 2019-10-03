@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Magevol_QuickShopping",
+    "name": "openmage-module-fostering\/magevol_quickshopping",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension allows the user to easily add a product to the cart by SKU",
     "authors": [
